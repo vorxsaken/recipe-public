@@ -1,0 +1,39 @@
+# POST http://localhost:3000/api/collection/create
+# content-type: application/json
+
+# {
+#     "name": "dish",
+#     "recipeId": "646b0795544bc603a3c2b908",
+#     "ownerId": "646180dd02236436b508e285"
+# }
+
+# POST http://localhost:3000/api/recipe/read/
+# content-type: application/json
+
+# {
+#     "skip": 0
+# }
+
+# POST http://localhost:3000/api/user/read/following
+# content-type: application/json
+
+# {
+#     "userId": "6485e7c024fbdaf9e421aee0",
+#     "skip": 0
+# }
+
+# GET http://localhost:3000/api/collection/read/646180dd02236436b508e285
+
+GET http://localhost:3000/api/user/read/search/fa
+
+
+
+
+
+
+
+
+
+
+# recipe id 646b0795544bc603a3c2b908
+# user id 646180dd02236436b508e285
